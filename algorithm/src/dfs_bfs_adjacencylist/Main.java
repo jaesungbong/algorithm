@@ -21,6 +21,7 @@ public class Main {
         }
     }
     public static void bfs(ArrayList<Integer>[] a, boolean[] c, int start) {
+    	int cnt = 0;
         Queue<Integer> q = new LinkedList<Integer>();
         q.add(start);
         c[start] = true;
@@ -33,7 +34,10 @@ public class Main {
                     q.add(y);
                 }
             }
+            cnt ++;
         }
+        System.out.println();
+        System.out.println(cnt);
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
