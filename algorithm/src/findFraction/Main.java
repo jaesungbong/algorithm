@@ -1,4 +1,4 @@
-package find_fraction;
+package findFraction;
 
 import java.util.Scanner;
 
