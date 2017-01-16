@@ -1,4 +1,4 @@
-package number_of_connected_component;
+package numberOfConnectedComponent_11724;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package selfNumber;
+package selfNumber_4673;
 
 import java.util.ArrayList;
 

@@ -7,6 +7,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int m = sc.nextInt();
+		//(n - 1) * m + (m - 1)
 		System.out.println((n * m) - 1);
 	}
 }

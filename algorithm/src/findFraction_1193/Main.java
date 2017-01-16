@@ -1,4 +1,4 @@
-package findFraction;
+package findFraction_1193;
 
 import java.util.Scanner;
 

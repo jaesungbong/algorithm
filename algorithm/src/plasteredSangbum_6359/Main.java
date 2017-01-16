@@ -1,4 +1,4 @@
-package plasteredSangbum;
+package plasteredSangbum_6359;
 
 import java.util.Scanner;
 
