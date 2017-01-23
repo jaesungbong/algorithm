@@ -1,4 +1,4 @@
-package maxMultiply_1500_not;
+package maxMultiply_1500_notSolved;
 
 import java.util.Scanner;
 
