@@ -6,26 +6,18 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int[][] num = new int[n + 1][n + 1]; // num[i][j]는 i줄의 우리에 j마리의 사자를 배치 할때의 경우의 수
+		int[][] num = new int[n + 1][3]; // num[i][j] i는 우리의 줄 수, j는 마지막 줄의 사자의 위치
+											// j가 0이면 존재하지 않고 1이면 왼쪽에 2면 오른쪽에 존재
 		num[1][0] = 1;
-		num[1][1] = 2;
+		num[1][1] = 1;
+		num[1][2] = 1;
+		
 		for (int i = 2; i <= n; i++) {
-			for (int j = 0; j <= i; j++) {
-				if (j == 0) {
-					num[i][j] = 1; //i줄의 우리에 0마리를 배치하는 경우 1가지
-				} else if (j == 1) {
-					num[i][j] = i * 2; //i줄의 우리에 1마리를 배치하는 경우는 i * 2가지
-				} else if (j == i) {
-					num[i][j] = 2; //i줄의 우리에 i마리를 배치하는 경우 2가지
-				} else {
-					num[i][j] = num[i - 1][j] * 2 + i + 1;
-				}
-			}
+			num[i][0] = (num[i - 1][0] + num[i - 1][1] + num[i - 1][2]) % 9901;
+			num[i][1] = (num[i - 1][0] + num[i - 1][2]) % 9901 ;
+			num[i][2] = (num[i - 1][0] + num[i - 1][1]) % 9901;
 		}
-		int sum = 0;
-		for (int i = 0; i <= n; i++) {
-			sum += num[n][i];
-		}
-		System.out.println(sum % 9901);
+		
+		System.out.println((num[n][0] + num[n][1] + num[n][2]) % 9901);
 	}
 }
