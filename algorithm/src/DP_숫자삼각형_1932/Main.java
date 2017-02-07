@@ -1,4 +1,4 @@
-package 숫자삼각형_1932;
+package DP_숫자삼각형_1932;
 
 import java.util.Scanner;
 

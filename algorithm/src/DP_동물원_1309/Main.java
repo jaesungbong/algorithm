@@ -1,4 +1,4 @@
-package 동물원_1309_notSolved;
+package DP_동물원_1309;
 
 import java.util.Scanner;
 

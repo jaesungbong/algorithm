@@ -1,4 +1,4 @@
-package rgb거리_1149;
+package DP_rgb거리_1149;
 
 import java.util.Scanner;
 
