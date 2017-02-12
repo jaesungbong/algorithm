@@ -1,4 +1,4 @@
-package 가장긴감소하는부분수열_11722_notSolved;
+package DP_가장긴감소하는부분수열_11722_notSolved;
 
 import java.util.ArrayList;
 import java.util.Scanner;
