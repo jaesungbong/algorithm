@@ -19,15 +19,15 @@ public class Main {
 				System.out.println(dist[x] - 1);
 				break;
 			} else {
-				if ((0 <= x - 1) && (dist[x - 1] == 0)) {
+				if ((0 <= x - 1) && (dist[x - 1] == 0)) { //이동되는 위치가 범위 안에 있고, -1 로 이동한다면
 					q.add(x - 1);
 					dist[x - 1] = dist[x] + 1;
 				}
-				if ((x + 1 <= 100000) && (dist[x + 1] == 0)) {
+				if ((x + 1 <= 100000) && (dist[x + 1] == 0)) { //이동되는 위치가 범위 안에 있고, +1 로 이동한다면
 					q.add(x + 1);
 					dist[x + 1] = dist[x] + 1;
 				}
-				if ((x * 2 <= 100000) && (dist[x * 2] == 0)) {
+				if ((x * 2 <= 100000) && (dist[x * 2] == 0)) { //이동되는 위치가 범위 안에 있고, *2 로 이동한다면
 					q.add(x * 2);
 					dist[x * 2] = dist[x] + 1;
 				}
