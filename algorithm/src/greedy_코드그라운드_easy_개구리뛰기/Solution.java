@@ -5,11 +5,12 @@ import java.util.Scanner;
 
 public class Solution {
 	public static void main(String[] args) {
-		
 		Scanner sc = new Scanner(System.in);
 		int testCase = sc.nextInt();
 		for (int i = 1; i <= testCase; i++) {
-			// 입력
+			// ====
+			// INPUT
+			// ====
 			int N = sc.nextInt(); // 돌들의 개수
 			int[] a = new int[N + 1]; // 돌위치의 배열 입력
 			for (int j = 1; j <= N; j++) {
@@ -17,7 +18,9 @@ public class Solution {
 			}
 			int K = sc.nextInt(); // 한번에 뛸 수 있는 최대 거리
 
-			// 실행
+			// =====
+			// EXCUTE
+			// =====
 			int until = K; // 개구리가 현재 뛸 수 있는 최대거리
 			int jump = 0; // 개구리가 뛴 횟수
 			int nowIdx = 0; // 개구리의 현재 인덱스
@@ -40,7 +43,9 @@ public class Solution {
 				}
 			}
 			
-			//출력
+			// ======
+			// OUTPUT
+			// ======
 			System.out.println("Case #" + i);
 			if (a[nowIdx] == a[N]) { //현재 위치와 목적지가 같다면
 				System.out.println(jump);
@@ -48,5 +53,6 @@ public class Solution {
 				System.out.println(- 1);
 			}
 		}
+		sc.close();
 	}
 }
