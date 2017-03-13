@@ -1,4 +1,4 @@
-package 별찍기3_2440;
+package 백준_별찍기3_2440;
 
 import java.util.Scanner;
 

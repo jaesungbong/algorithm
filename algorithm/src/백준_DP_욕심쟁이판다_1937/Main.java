@@ -1,4 +1,4 @@
-package DP_욕심쟁이판다_1937;
+package 백준_DP_욕심쟁이판다_1937;
 
 import java.util.Scanner;
 

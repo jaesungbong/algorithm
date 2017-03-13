@@ -1,4 +1,4 @@
-package 분수찾기_1193;
+package 백준_분수찾기_1193;
 
 import java.util.Scanner;
 

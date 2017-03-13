@@ -1,4 +1,4 @@
-package a나누기B_1008;
+package 백준_A나누기B_1008;
 
 import java.util.Scanner;
 

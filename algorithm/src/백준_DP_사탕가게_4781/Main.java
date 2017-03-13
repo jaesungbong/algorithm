@@ -1,4 +1,4 @@
-package DP_사탕가게_4781;
+package 백준_DP_사탕가게_4781;
 
 import java.util.Scanner;
 

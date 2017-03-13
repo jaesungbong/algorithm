@@ -1,4 +1,4 @@
-package DP_1학년_5557_못품;
+package 백준_DP_1학년_5557_못품;
 
 import java.util.Scanner;
 

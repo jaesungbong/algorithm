@@ -1,4 +1,4 @@
-package 초콜릿자르기_2163;
+package 백준_초콜릿자르기_2163;
 
 import java.util.Scanner;
 

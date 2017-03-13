@@ -1,4 +1,4 @@
-package sort_국영수_10825;
+package 백준_sort_국영수_10825;
 
 import java.util.Arrays;
 import java.util.Scanner;

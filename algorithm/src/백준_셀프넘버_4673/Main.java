@@ -1,4 +1,4 @@
-package 셀프넘버_4673;
+package 백준_셀프넘버_4673;
 
 import java.util.ArrayList;
 

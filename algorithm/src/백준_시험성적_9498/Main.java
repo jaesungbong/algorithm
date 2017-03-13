@@ -1,4 +1,4 @@
-package 시험성적_9498;
+package 백준_시험성적_9498;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package a곱하기b_10998;
+package 백준_a곱하기b_10998;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package DP_가장긴감소하는부분수열_11722;
+package 백준_DP_가장긴감소하는부분수열_11722;
 
 import java.util.Scanner;
 

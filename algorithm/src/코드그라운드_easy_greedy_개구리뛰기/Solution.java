@@ -1,4 +1,4 @@
-package greedy_코드그라운드_easy_개구리뛰기;
+package 코드그라운드_easy_greedy_개구리뛰기;
 //https://www.codeground.org/practice/practiceProbView.do?probId=11
 
 import java.util.Scanner;

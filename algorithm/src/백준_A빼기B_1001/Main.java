@@ -1,4 +1,4 @@
-package a빼기B_1001;
+package 백준_A빼기B_1001;
 
 import java.util.Scanner;
 

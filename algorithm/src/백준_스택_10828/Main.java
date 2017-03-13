@@ -1,4 +1,4 @@
-package 스택_10828;
+package 백준_스택_10828;
 
 import java.util.ArrayList;
 import java.util.Scanner;

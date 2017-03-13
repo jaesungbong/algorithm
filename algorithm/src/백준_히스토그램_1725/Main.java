@@ -1,7 +1,7 @@
-package 백준_DP_기지국_2300_못품;
+package 백준_히스토그램_1725;
 
 public class Main {
 	public static void main(String[] args) {
-
+		
 	}
 }

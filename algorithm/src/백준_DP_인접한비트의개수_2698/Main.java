@@ -1,4 +1,4 @@
-package DP_인접한비트의개수_2698;
+package 백준_DP_인접한비트의개수_2698;
 
 import java.util.Scanner;
 

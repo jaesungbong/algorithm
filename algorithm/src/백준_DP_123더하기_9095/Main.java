@@ -1,4 +1,4 @@
-package DP_123더하기_9095;
+package 백준_DP_123더하기_9095;
 
 import java.util.Scanner;
 

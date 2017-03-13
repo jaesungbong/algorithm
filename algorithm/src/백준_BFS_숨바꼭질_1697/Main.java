@@ -1,4 +1,4 @@
-package BFS_숨바꼭질_1697;
+package 백준_BFS_숨바꼭질_1697;
 
 import java.util.LinkedList;
 import java.util.Queue;

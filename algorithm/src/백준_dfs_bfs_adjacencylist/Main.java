@@ -1,4 +1,4 @@
-package dfs_bfs_adjacencylist;
+package 백준_dfs_bfs_adjacencylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;

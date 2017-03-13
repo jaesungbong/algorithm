@@ -1,4 +1,4 @@
-package 기찍N_2742;
+package 백준_기찍N_2742;
 
 import java.util.Scanner;
 

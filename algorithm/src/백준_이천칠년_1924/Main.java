@@ -1,4 +1,4 @@
-package 이천칠년_1924;
+package 백준_이천칠년_1924;
 
 import java.util.Scanner;
 

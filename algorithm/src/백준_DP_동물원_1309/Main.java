@@ -1,4 +1,4 @@
-package DP_동물원_1309;
+package 백준_DP_동물원_1309;
 
 import java.util.Scanner;
 

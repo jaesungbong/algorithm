@@ -1,4 +1,4 @@
-package generationsOfTribbles_9507;
+package 백준_generationsOfTribbles_9507;
 
 import java.util.Scanner;
 

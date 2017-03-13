@@ -1,4 +1,4 @@
-package dijkstra_최단경로_1753;
+package 백준_dijkstra_최단경로_1753_못품;
 
 import java.util.ArrayList;
 import java.util.Scanner;

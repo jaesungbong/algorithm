@@ -1,4 +1,4 @@
-package 최대곱_1500_못품;
+package 백준_최대곱_1500_못품;
 
 import java.util.Scanner;
 

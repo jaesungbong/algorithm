@@ -1,4 +1,4 @@
-package 나머지_10430;
+package 백준_나머지_10430;
 
 import java.util.Scanner;
 

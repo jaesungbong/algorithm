@@ -1,4 +1,4 @@
-package 피보나치함수_1003;
+package 백준_피보나치함수_1003;
 
 import java.util.Scanner;
 

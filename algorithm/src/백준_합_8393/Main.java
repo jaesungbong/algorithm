@@ -1,4 +1,4 @@
-package 합_8393;
+package 백준_합_8393;
 
 import java.util.Scanner;
 

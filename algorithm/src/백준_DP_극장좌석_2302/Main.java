@@ -1,4 +1,4 @@
-package DP_극장좌석_2302;
+package 백준_DP_극장좌석_2302;
 
 import java.util.Scanner;
 

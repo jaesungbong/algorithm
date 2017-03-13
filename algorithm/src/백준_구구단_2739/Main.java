@@ -1,4 +1,4 @@
-package 구구단_2739;
+package 백준_구구단_2739;
 
 import java.util.Scanner;
 

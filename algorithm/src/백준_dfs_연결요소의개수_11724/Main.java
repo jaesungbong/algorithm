@@ -1,4 +1,4 @@
-package dfs_연결요소의개수_11724;
+package 백준_dfs_연결요소의개수_11724;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package 더하기사이클_1110;
+package 백준_더하기사이클_1110;
 
 import java.util.Scanner;
 

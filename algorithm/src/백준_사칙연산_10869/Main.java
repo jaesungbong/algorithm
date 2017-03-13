@@ -1,4 +1,4 @@
-package 사칙연산_10869;
+package 백준_사칙연산_10869;
 
 import java.util.Scanner;
 
