@@ -29,8 +29,7 @@ public class Main {
 					if (y < 0) { // 3, 4분면은 음수로 나오기 때문에 360을 더하면 양수로 변환됨.
 						angle += 360;
 					}
-					angle += 9;
-					angle = (angle + 360) % 360;
+					angle += 9;	angle %= 360;
 					int s = score[(int) (angle / 18)];
 					if (B < dist && dist < C) { // TRIPLE
 						sum += 3 * s;

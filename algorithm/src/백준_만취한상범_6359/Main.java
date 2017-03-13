@@ -1,4 +1,4 @@
-package 만취한상범_6359;
+package 백준_만취한상범_6359;
 
 import java.util.Scanner;
 
