@@ -26,6 +26,7 @@ public class Main {
 		char[] los = sc.next().toCharArray();
 		int kingX = (int) (lok[0] - 64); // king의 X위치
 		int kingY = (int) (lok[1] - 48); // king의 Y위치
+//		System.out.println(kingX + ", " + kingY);
 		int stoneX = (int) (los[0] - 64); // stone의 X위치
 		int stoneY = (int) (los[1] - 48); // stone의 X위치
 		int n = sc.nextInt();

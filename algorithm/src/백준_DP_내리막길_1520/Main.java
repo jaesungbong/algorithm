@@ -9,7 +9,6 @@ public class Main {
 	static int[] moveY = { 0, 0, -1, 1 }; // 상, 하, 좌, 우
 
 	static int search(int x, int y) {
-//		System.out.println("visit: " + stair[x][y]);
 		if (x == m && y == n)
 			return 1;
 		int visit = 0;
