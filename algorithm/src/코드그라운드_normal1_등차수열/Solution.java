@@ -1,59 +1,46 @@
 package 코드그라운드_normal1_등차수열;
 
 import java.util.Scanner;
+//https://www.codeground.org/practice/practiceProbView.do?probId=16
 
 public class Solution {
-	static long num[] = new long[100001]; // 숫자들
-	static long sub[] = new long[100000]; // 차들
-	static long gcd[] = new long[99999];
-
-	public static long getGcd(long a, long b) { //최대공약수 구하기
-		while (b != 0) {
-			long temp = a % b;
-			a = b;
-			b = temp;
-		}
-		return Math.abs(a);
-	}
-
-	public static long getDivisor(long x) { // 약수의 개수 구하기
-		long cnt = 0;
-		for (int i = 1; i <= x; i++) {
-			if (x % i == 0) {
-				cnt ++;
-			}
-		}
-		return cnt;
-	}
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int testCase = sc.nextInt();
 		for (int t = 1; t <= testCase; t++) {
-			int m = sc.nextInt(); // 수열 원소의 개수
-			int flag = 0; // 모든 공차가 0일 때
-			long cnt = 0;
-			for (int i = 1; i <= m; i++) {
-				num[i] = sc.nextInt(); // 숫자 입력
-				if (i > 1) {
-					sub[i - 1] = num[i] - num[i - 1];
-					if (sub[i - 1] != 0) {
-						flag = 1;
+			int n = sc.nextInt(); // 숫자의 개수
+			long num = sc.nextLong(); // 첫번째 숫자
+			long gcd = 0;
+
+			// 원소들의 차들의 최대공약수 구하기
+			for (int i = 0; i < n - 1; i++) {
+				// 원소들의 차 구하기
+				long tempNum = sc.nextLong();
+				long sub = tempNum - num;
+				num = tempNum;
+				if (i == 0) {
+					gcd = sub;
+				} else {
+					while (sub != 0) { // 최대공약수 구하기
+						long temp2 = gcd % sub;
+						gcd = sub;
+						sub = temp2;
 					}
-					gcd[i - 1] = sub[i - 1];
-				} else if (i > 2) {
-					gcd[i - 1] = getGcd(gcd[i - 2], sub[i - 1]);
 				}
 			}
-			if (flag == 0) {
-				cnt = 1;
-			} else if (flag == 1 && m == 2) {
-				cnt = getDivisor(sub[1]);
-			} else if (flag == 1 && m > 2) {
-				cnt = getDivisor(gcd[m - 2]);
+
+			int gcdsNum = 0;
+			if (gcd == 0) {
+				gcdsNum = 1;
+			} else {
+				for (int i = 1; i <= gcd; i++) {
+					if (gcd % i == 0) {
+						gcdsNum++;
+					}
+				}
 			}
 			System.out.println("Case #" + t);
-			System.out.println(cnt);
+			System.out.println(gcdsNum);
 		}
 		sc.close();
 	}
