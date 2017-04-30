@@ -1,4 +1,4 @@
-package 코드그라운드_normal1_회로판위의배터리;
+package 코드그라운드_normal1_회로판위의배터리_못품;
 
 import java.util.Scanner;
 //https://www.codeground.org/practice/practiceProbView.do?probId=14
